@@ -209,6 +209,9 @@
             <TabItem x:Name="ScriptEditorTab" Header="Script Editor">
                 <app:ScriptEditorView ScriptCollection="{Binding CaptureController.Scripts}" ScriptTypeCollection="{Binding CaptureController.ScriptTypes}" TabSize="4"/>
             </TabItem>
+            <TabItem x:Name="QueryEditorTab" Header="Query Editor">
+                <app:QueryEditorView ScriptCollection="{Binding CaptureController.Scripts}" ScriptTypeCollection="{Binding CaptureController.ScriptTypes}" TabSize="4"/>
+            </TabItem>
         </TabControl>
     </Grid>
 </UserControl>

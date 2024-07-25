@@ -88,7 +88,7 @@
     <Page Update="Controls\CheckBoxFilters.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Page>
-    <Page Update="Controls\ScriptEditorView.xaml">
+    <Page Update="Controls\QueryEditorView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Page>
     <Page Update="Engines\CaptureAnalysis\ReportViews\AnalysisReportsView.xaml">
